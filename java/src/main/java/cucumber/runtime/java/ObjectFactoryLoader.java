@@ -7,7 +7,7 @@ import cucumber.runtime.NoInstancesException;
 import cucumber.runtime.Reflections;
 import cucumber.runtime.TooManyInstancesException;
 
-public class ObjectFactoryLoader {
+public final class ObjectFactoryLoader {
     private ObjectFactoryLoader() {
     }
 
